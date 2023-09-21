@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    overflow-x: hidden;
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.container{
+    position: relative;
+    transform: translateY(200px);
+    height: 38%;
+    width: 32%;
+    margin: 0 auto;
+    
+    background-color: white;
+    border-radius: 10px;   
+}
+
+.container img
+{
+    
+ width: 32%;
+ height: 100%;
+ border-top-left-radius: 10px;
+ border-bottom-left-radius: 10px;
+}
+
+.container h6{
+    position: absolute;
+    top: 4%;
+    left: 35%;
+
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#WC
+{
+    position: absolute;
+    top: 12%;
+    left: 35%;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+#para
+{
+    position: absolute;
+    top: 32%;
+    left: 35%;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: green;
+}
+
+.number{
+    position: absolute;
+    top: 60%;
+    left: 35%;
+
+}
+.rupees
+{
+    color: green;
+    font-size: 30px;
+}
+
+.button
+{
+    position: absolute;
+    top: 85%;
+    left: 35%;
+
+    height: 25px;
+    width: 60%;
+
+    padding: 0 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: gray;
+    color: white;
+    
+}
+
+.button:hover{
+    cursor: pointer;
+    scale: 1.06;
+    transition: 0.5s;
+}
+
+.cart
+{
+    font-size: 10px;
+    object-fit: scale-down;
+    padding: 0 20px;
+    text-align: center;
+    margin-right: 1em;
+    max-width: 100%;
+}
